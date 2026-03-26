@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and route definitions for Map, Alerts, Analytics, and About pages.",
+  "frontend/src/components/Layout.tsx": "Layout component with header navigation, logo, page links, and footer that wraps all pages using Outlet.",
+  "frontend/src/pages/MapView.tsx": "Interactive map view page with searchable locality system featuring auto-suggest dropdown, visual highlighting of selected/searched localities with glow effects and animated borders, clickable markers that open a side sheet with detailed risk information, and responsive layout for all screen sizes.",
+  "frontend/src/pages/Alerts.tsx": "Alerts page showing filterable list of high-risk incidents with severity badges, timestamps, and descriptions in a card grid layout.",
+  "frontend/src/pages/Analytics.tsx": "Analytics dashboard with tabbed interface displaying incident trends, type distribution pie chart, and peak hours bar chart using Recharts.",
+  "frontend/src/pages/About.tsx": "About page with comprehensive information about the system, data sources, risk calculation methodology, privacy statement, and key features.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching locality risks, alerts, analytics data, locality search results with auto-suggest functionality, and initializing sample data from the backend with proper cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system including custom risk level colors (green, yellow, red) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom risk level colors mapped to CSS variables for consistent theming."
+}
